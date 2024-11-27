@@ -262,5 +262,5 @@ int main(void) {
     CloseAudioDevice();
     CloseWindow();
 
-    return 0;
+    return 3;
 }
