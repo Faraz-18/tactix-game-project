@@ -1,55 +1,39 @@
+# **Tactix**
 
-Here’s a professional and detailed project description for your game repository:
+**Tactix** is an enhanced and interactive version of the classic Tic-Tac-Toe game built using the **Raylib** library in C. The game offers both single-player (against AI) and multiplayer modes, providing an engaging experience with sound effects, a modern user interface, and responsive gameplay.
 
-Super Tic-Tac-Toe
-Super Tic-Tac-Toe is an enhanced and interactive version of the classic Tic-Tac-Toe game built using the Raylib library in C. The game offers both single-player (against AI) and multiplayer modes, providing an engaging experience with sound effects, a modern user interface, and responsive gameplay.
+## **Features**
 
-Features
-Single-Player Mode: Compete against a simple AI that makes random moves to challenge your strategic skills.
-Multiplayer Mode: Play with a friend locally on the same device.
-Intuitive User Interface: Easy-to-use menu for selecting game modes.
-Sound Effects: Adds excitement to gameplay with sounds for marking moves and winning.
-Grid Display: Real-time updates of the grid with clear visual distinction for 'X' and 'O'.
-Winning Logic: Identifies the winner or declares a tie when the grid is full.
-How to Play
-Start the Game:
+- **Single-Player Mode**: Compete against a simple AI that makes random moves to challenge your strategic skills.
+- **Multiplayer Mode**: Play with a friend locally on the same device.
+- **Intuitive User Interface**: Easy-to-use menu for selecting game modes.
+- **Sound Effects**: Adds excitement to gameplay with sounds for marking moves and winning.
+- **Grid Display**: Real-time updates of the grid with clear visual distinction for 'X' and 'O'.
+- **Winning Logic**: Identifies the winner or declares a tie when the grid is full.
 
-On launching, the menu appears with two options: Single Player and Multiplayer.
-Select your preferred mode using the mouse.
-Gameplay:
+## **Requirements**
 
-Single Player: You play as X while the AI plays as O.
-Multiplayer: Player 1 (X) and Player 2 (O) take turns.
-Click on an empty cell to make your move.
-Winning Conditions:
+- **Raylib Library**: Ensure that the Raylib library is installed on your system.
+- **C Compiler**: A C compiler like GCC to compile and run the code.
 
-The first player to align three of their marks (horizontally, vertically, or diagonally) wins.
-If the grid fills up without a winner, the game ends in a tie.
-Restart:
+## **How to Play**
 
-Once the game ends, press R to return to the menu.
-Requirements
-Raylib library installed.
-A C compiler such as GCC.
-Audio files: move.wav, start.wav, and wins.wav for sound effects.
-How to Run
-Clone the repository:
+1. **Download and Install**: Clone the repository or download the ZIP file and extract it.
+2. **Compile the Code**:
+   - Use a compiler like GCC to compile the `Tactix.c` file.
+3. **Run the Game**:
+   - Execute the compiled file in the Raylib Notepad++.
+4. **Choose Mode**:
+   - Single-player: Play against the AI.
+   - Multiplayer: Play against another player locally.
+5. **Start Playing**: Take turns marking the grid, and win by completing a row, column, or diagonal!
 
-bash
-Copy code
-git clone <repository-url>
-cd Super-Tic-Tac-Toe
-Compile the game:
+## **Credits**
 
-bash
-Copy code
-gcc -o SuperTicTacToe main.c -lraylib
-Run the game:
+This project is developed by :
 
-bash
-Copy code
-./SuperTicTacToe
-Future Enhancements
-Advanced AI for a more challenging single-player experience.
-Online multiplayer mode.
-Dynamic difficulty settings for AI.
+- **Syed Faraz Ahmed**
+- **Usman Hasan**
+- **Taymoor Ahson**
+
+Enjoy the game and feel free to contribute or suggest improvements!
